@@ -13,8 +13,8 @@ data = pd.read_excel(recipients_file)
 # Email credentials (Update with your credentials)
 SMTP_SERVER = "smtp.gmail.com"  # For Gmail
 SMTP_PORT = 587
-EMAIL_ADDRESS = "vikramjots.it.23@nitj.ac.in"  # Your Gmail address
-EMAIL_PASSWORD = "wwkk wkcj ttfc kboa"  # Your Gmail app password
+EMAIL_ADDRESS = ""  # Your Gmail address
+EMAIL_PASSWORD = ""  # Your Gmail app password
 
 # Function to send email with certificate attachment
 def send_certificate(name, email, certificate_file):
@@ -25,7 +25,7 @@ def send_certificate(name, email, certificate_file):
         msg['To'] = email
         
         # Email body
-        msg.set_content(f"Dear {name},\n\nPlease find your certificate attached.\n\nBest regards,\nSQC and AIBiMatic Club,\nNIT Jalandhar")
+        msg.set_content(f"Dear {name},\n\nPlease find your certificate attached.\n\nBest regards,\n,\nSukhpreet Singh")
         
         # Attach the PNG certificate
         with open(certificate_file, 'rb') as cert:
