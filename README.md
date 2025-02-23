@@ -1,5 +1,5 @@
 # Email-Automation
-This project automates sending certificates or custom documents to multiple recipients using Python. It streamlines bulk email distribution with attachments, reducing manual effort. Google Mail authentication is used for secure access. Ideal for event organizers, educators, and businesses needing efficient, scalable email automation.
+This project automates sending certificates or custom documents to multiple recipients using Python. It streamlines bulk email distribution with attachments, reducing manual effort. Google Mail authentication is used for secure access. Ideal for event organizers, educators, and businesses needing efficient, scalable email automation.\n
 Step 1 :  In the recipients.xlsx , collect names and emails from google form or any source of your choice. 
 Step 2 :  Using Bulk Create option in Canva , create ur certificates in bulk by passing the recipients.xlsx's desired column.
 Step 3 :  By default, the naming sequence should be of natural numbers 1,2,3,.............,n.
